@@ -1,0 +1,140 @@
+.footer-her {
+    height: 120px;
+    max-width: 1280px;
+    background: #2C343E;
+    margin-top: 300px;
+}
+
+.foter-yon {
+    display: flex;
+    align-items: center;
+}
+
+.img--s {
+    width: 236px;
+    height: 26px;
+    margin: 40px 80px;
+}
+
+.das {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.as {
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 5px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.as:hover {
+    color: white;
+    border-bottom: 2px solid wheat;
+}
+
+.icons {
+    margin-left: 100px;
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 26px;
+}
+
+.fa-cons {
+    color: white;
+}
+
+.fa-cons:hover {
+    color: #FDD6BA;
+}
+
+@media screen and (max-width:900px) {
+    .footer-her {
+        height: 270px;
+        max-width: 888px;
+        background: #2C343E;
+        margin-top: 300px;
+    }
+
+    .foter-yon {
+        display: inline-block;
+        margin-left: 200px;
+    }
+
+    .das {
+        margin-left: 40px;
+        margin-bottom: 65px;
+    }
+
+    .icons {
+        margin-left: 140px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .footer-her {
+        height: 370px;
+        max-width: 588px;
+        background: #2C343E;
+    }
+
+    .foter-yon {
+        display: inline-block;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .foter-yon {
+        display: inline-block;
+        margin-left: 50px;
+    }
+
+    .das {
+        display: block;
+    }
+
+    .as {
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .footer-her {
+        height: 346px;
+        max-width: 388px;
+        background: #2C343E;
+    }
+    .foter-yon {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .img--s {
+        height: 24px;
+        width: 217.84616088867188px;
+    }
+}
+@media screen and (max-width:400px) {
+
+    
+        .footer-her {
+        height: 346px;
+        max-width: 378px;
+        background: #2C343E;
+    }
+    .foter-yon {
+        display: inline-block;
+        margin-left: -20px;
+    }
+}

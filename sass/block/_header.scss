@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+
+
+}
+
+.site-img {
+    height: 26px;
+    max-width: 236px;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.site-nav {
+    display: flex;
+}
+
+.site-li {
+    margin-right: 30px;
+}
+
+
+
+.site-ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header-a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #83888F;
+}
+
+.header-a:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+
+.nav__mobile-list {
+    position: fixed;
+    background: linear-gradient(
+        2deg,
+        rgba(254, 252, 247, 0.504981) 0%,
+        #fefcf7 55.94%
+        );
+    left: 0;
+    right: 0;
+    height: 100vh;
+    top: 93px;
+    display: none;
+}
+
+.nav__mobile-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.nav-btn {
+    background-image: url(../../images/Combined\ Shape\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
+.nav__mobile-item {
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.nav__mobile-link {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333D4B;
+    
+}
+.nav__mobile-link:hover {
+    border-bottom: 4px solid black;
+    color: #000000;
+}
+
+.open {
+    display: flex;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+@media screen and (max-width:700px) {
+    .header-a {
+        display: none;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .nav-btn {
+        display: inline-block;
+    }
+}
+@media screen and (max-width:460px) {
+    .site-img {
+        height: 18px;
+        max-width: 163px;
+    }
+}
+
+
+
+
+
